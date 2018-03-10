@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">BitCoin Daily</string>
+    <string name="currency">Select Currency : </string>
+    <string name="welcomeText">Welcome to BitCoin Daily</string>
+    <string name="app_logo">App logo</string>
+    <string name="select">Select</string>
+    <string-array name="cur">
+        <item>None</item>
+        <item>USD</item>
+        <item>AUD</item>
+        <item>CAD</item>
+        <item>EUR</item>
+        <item>INR</item>
+    </string-array>
+</resources>
