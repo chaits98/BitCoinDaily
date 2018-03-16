@@ -7,7 +7,7 @@
     android:background="@android:color/transparent"
     android:fontFamily="@font/dosis_extralight"
     android:gravity="center"
-    android:textColor="@color/gold"
+    android:textColor="@android:color/white"
     android:textSize="30sp"
     android:textStyle="bold" />
 

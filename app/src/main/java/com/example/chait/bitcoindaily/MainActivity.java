@@ -37,8 +37,8 @@ public class MainActivity extends AppCompatActivity {
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
         setContentView(R.layout.activity_main);
 
-        mSpinner = (Spinner) findViewById(R.id.spinner);
-        mCurrencyValue = (TextView)findViewById(R.id.currencyTextView);
+        mSpinner = findViewById(R.id.spinner);
+        mCurrencyValue = findViewById(R.id.currencyTextView);
 
         ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(MainActivity.this, R.array.cur, R.layout.spinner_layout);
         adapter.setDropDownViewResource(R.layout.selection_layout);
